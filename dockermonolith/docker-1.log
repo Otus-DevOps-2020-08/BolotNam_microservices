@@ -2,3 +2,7 @@ REPOSITORY            TAG                 IMAGE ID            CREATED           
 nbt/ubuntu-tmp-file   latest              7ad210bdf60c        3 minutes ago       63.2MB
 ubuntu                18.04               56def654ec22        4 weeks ago         63.2MB
 hello-world           latest              bf756fb1ae65        9 months ago        13.3kB
+
+###########################################
+- Основное отличие в отсутствии верхнего слоя для записи.
+- Также не наблюдается информации по сетевым настройкам.
