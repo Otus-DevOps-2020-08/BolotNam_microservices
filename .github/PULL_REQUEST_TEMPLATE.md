@@ -1,4 +1,9 @@
-ДЗ docker-2
+# Выполнено ДЗ №10
+
+ - [x] Основное ДЗ
+ - [-] Задание со *
+
+## В процессе сделано:
 1. Создание ветки
 2. установка docker? docker-machine, docker-compose
 3. Запуск image 'hello world'
@@ -9,3 +14,13 @@
 8. Создание docker-контейнера используя Dockerfile, mongod.conf, db_config, start.sh
 9. загрузка полчившегося образа на docker hub.
 10. развертывание орбраза из docker hub на локальном хосте.
+
+## Как запустить проект:
+ - none
+
+## Как проверить работоспособность:
+ - none
+
+## PR checklist
+ - [docker] ДЗ docker-1
+ - [docker-2] ДЗ docker-2
