@@ -1,3 +1,18 @@
+ДЗ gitlab-ci-1
+1. создание ВМ с заданными параметрами с помощью packer
+2. установка Docker на ВМб с помощью docker-machine
+3. подготовка к развертыванию gitlab на ВМ
+    - директории /srv/gitlab/config /srv/gitlab/data /srv/gitlab/logs
+    - файл docker-compose.yml
+4. развертывание контейнера gitlab на ВМ с помощью docker-compose
+5. смена пароль root, отключение регистрации, создание группы, создание проекта, push в gitlab
+6. создание pipeline для gitlab (.gitlab-ci.yml)
+7. добавление, регистрация и проверка runner
+8. добавление reddit в проект gitlab
+9. добавление тестов в pipeline
+10. добавление окружений dev, stage и production
+11. добавление условий (в нашем случае тэг)
+12. тестирование динамических окружений.
 
 ДЗ docker-3
 1. подключаемся к ранее созданному инстансу на yandex cloud
