@@ -24,7 +24,7 @@ deploy_dev_job:
   stage: review
   script:
     - echo 'Deploy'
-  enviroment:
+  environment:
     name: dev
     uri: http://dev.example.com
 
