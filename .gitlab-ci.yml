@@ -27,7 +27,8 @@ deploy_job:
 
 variables:
   DATABASE_URL: 'mongodb://mongo/user_posts'
-  before_script:
+
+before_script:
     - cd reddit
     - bundle install
 ...
