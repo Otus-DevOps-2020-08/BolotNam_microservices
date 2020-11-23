@@ -26,7 +26,7 @@ deploy_dev_job:
     - echo 'Deploy'
   environment:
     name: dev
-    uri: http://dev.example.com
+    url: http://dev.example.com
 
 variables:
   DATABASE_URL: 'mongodb://mongo/user_posts'
