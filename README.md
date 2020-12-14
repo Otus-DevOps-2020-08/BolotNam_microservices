@@ -1,3 +1,6 @@
+ДЗ monitoring-1
+ссылка на dockerhub https://hub.docker.com/bobastik1982
+
 ДЗ gitlab-ci-1
 1. создание ВМ с заданными параметрами с помощью packer
 2. установка Docker на ВМб с помощью docker-machine
