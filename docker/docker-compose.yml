@@ -14,7 +14,7 @@ services:
     environment:
       - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     ports:
-      - ${port}:9292/tcp
+      - ${port}:9292
     networks:
       - front_net
     logging:
