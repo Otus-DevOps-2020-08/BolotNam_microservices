@@ -2,3 +2,5 @@ get-pip.py
 .pre-commit-config.yaml
 .travis.yml
 .env
+appuser2_key.json
+docker-compose.env
