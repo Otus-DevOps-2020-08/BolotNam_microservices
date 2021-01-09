@@ -1,3 +1,8 @@
+ДЗ kubernetes-1
+1. созданы тестовые post,ui,comment,mongo-deployment.yml
+2. пройден (с помощью коллег) the_hard_way
+Сложно для винлового админа (((
+
 ДЗ logging-1
 1. Создана ветка logging-1
 2. Подготавливаем окружение, обновляем reddit, собираем и пушим образы в dockerhub
