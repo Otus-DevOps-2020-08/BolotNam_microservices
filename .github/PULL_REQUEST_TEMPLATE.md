@@ -1,23 +1,18 @@
-# Выполнено ДЗ monitoring-1
+# Выполнено ДЗ kubernetes-1
 
  - [x] Основное ДЗ
  - [-] Задание со *
 
 ## В процессе сделано:
- - создана ВМ с помощью YC
- - развернут Docker на ВМ
- - запущен контейнер prom/prometheus на ВМ с помощью Docker, проверка что все запустилось
- - создаем образ из prom/prometheus:v2.1.0 с конфигурацией для мониторинга наших микросервисов.
- - создаем docker-compose.yml для запуска Prometheus и микросервисов, и запускаем.
- - тестируем мониторинг микросервисов, остановка, поиск проблем и запуск сервиса post
- - используем Node-экспортер для сбора информации о работе Docker хоста, добавляем данные о node-экспортер в docker-compose.yml и prometheus.yml и перезапускаем контейнеры.
+ - созданы тестовые post,ui,comment,mongo-deployment.yml
+ - пройден (с помощью коллег) the_hard_way
 
 ## Как запустить проект:
  - none
 
 ## Ссылка на Dockerhub:
- - https://hub.docker.com/bobastik1982
+
 
 ## PR checklist
- - [monitoring]
- - [monitoring-1]
+ - [kubernetes]
+ - [kubernetes-1]
