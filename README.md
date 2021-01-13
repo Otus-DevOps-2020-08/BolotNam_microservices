@@ -1,3 +1,5 @@
+ДЗ kubernetes-2
+
 ДЗ kubernetes-1
 1. созданы тестовые post,ui,comment,mongo-deployment.yml
 2. пройден (с помощью коллег) the_hard_way
