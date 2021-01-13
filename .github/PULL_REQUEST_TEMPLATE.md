@@ -1,18 +1,16 @@
-# Выполнено ДЗ kubernetes-1
+# Выполнено ДЗ kubernetes-2
 
  - [x] Основное ДЗ
  - [-] Задание со *
 
 ## В процессе сделано:
- - созданы тестовые post,ui,comment,mongo-deployment.yml
- - пройден (с помощью коллег) the_hard_way
+ - развернул кластер с помощью minikube локально и удаленно.
+ - пересобраны docker образы
 
 ## Как запустить проект:
- - none
+ - ссылка на проверку travis https://travis-ci.com/github/BolotNam/BolotNam_microservices
 
 ## Ссылка на Dockerhub:
-
-
 ## PR checklist
  - [kubernetes]
  - [kubernetes-2]
