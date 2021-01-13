@@ -15,4 +15,4 @@
 
 ## PR checklist
  - [kubernetes]
- - [kubernetes-1]
+ - [kubernetes-2]
