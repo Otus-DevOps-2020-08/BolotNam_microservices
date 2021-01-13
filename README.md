@@ -1,4 +1,5 @@
 ДЗ kubernetes-2
+1.
 
 ДЗ kubernetes-1
 1. созданы тестовые post,ui,comment,mongo-deployment.yml
