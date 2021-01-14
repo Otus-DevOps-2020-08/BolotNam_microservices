@@ -1,3 +1,59 @@
+ДЗ kubernetes-2
+# ДЗ kubernetes-2
+
+1. Создал ветку kubernetes-2
+2. Устанавливаем kubectl
+3. Устанавливаем Minikube
+4. Запускаем minikube
+		minikube start
+5. проверяем что кластер развернут
+		kubectl get nodes
+6. Проверка какой контекст используется по умолчанию
+		kubeclt config current-context
+7. Список всех контекстов
+		kubectl config get-contexts
+8. Изменяем ui-deployment.yml и запускаем его
+		kubectl apply -f ui-deployment.yml
+		### Для удаления используем kubectl delete deployment ui
+9. Убеждаемся что запустились все реплики ui. запускаются долго !!!
+		kubectl get deployment
+10. Пробрасываем сетевые порты POD-ов на локальную машину
+		kubectl get pods --selector component=ui
+		kubectl port-forward <pod-name> 8080:9292
+		проверяем зайдя на локальной машине на http://localhost:8080
+11. Создаем comment/post/mongo-deployment.yml
+12. Просмотреть всех pod
+		kubectl get pod -o wide
+13. Для связи comment/post/mongodb создаем services *-services.yml
+		Для просмотра запущенных сервисов kubectl get service
+		Для удаления используем kubectl delete service имя_сервиса
+14. По label-ам должны были быть найдены соответствующие POD-ы.
+		Посмотреть можно с помощью:
+		kubectl describe service comment | grep Endpoints
+15. А изнутри любого POD-а должно разрешаться:
+		 kubectl exec -ti <pod-name> nslookup comment #у меня не получается. ругается что нет cmlet nslookup
+		 kubectl exec -ti <pod-name> ping ip
+16. Для связи pod из comment/post с mongodb создаем commentpost/-mongodb-service.yml
+		Добавляем данные по БД в comment/post-deployment
+17. Создаем ui-service для доступа с ip локальной машины
+18. Знакомимся с minikube service list, minikube addon list
+19. Запускаем minikube dashboard, знакомимся с фунционалом.
+20. Создаем namespace dev с помощью dev-deployment.yml
+		kubectl apply -f dev-namespace.yml
+21. Запускаем приложение в namespace вум
+		kubectl apply -f -n dev ./
+22.	Развертывание кластера в yandex kubernetes. Подключаем кластер по мануалу https://cloud.yandex.ru/docs/managed-kubernetes/quickstart?utm_source=console&utm_medium=side-bar-left&utm_campaign=managed-kubernetes
+23. Изменим default context на кластер yc
+		kubectl config current-context yc-nbt-otus-kube
+24. И развернем окружение в namespace dev
+		kubectl apply -f ./ -n dev
+
+
+ДЗ kubernetes-1
+1. созданы тестовые post,ui,comment,mongo-deployment.yml
+2. пройден (с помощью коллег) the_hard_way
+Сложно для виндового админа (((
+
 ДЗ logging-1
 1. Создана ветка logging-1
 2. Подготавливаем окружение, обновляем reddit, собираем и пушим образы в dockerhub
