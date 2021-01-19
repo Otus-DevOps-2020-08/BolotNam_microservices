@@ -7,7 +7,7 @@
  - протестирована работа с LoadBalancer,Ingress, Network Policy, Persistent Volume
 
 ## Как запустить проект:
- - ссылка на проверку travis https://travis-ci.com/github/BolotNam/BolotNam_microservices
+ - ссылка на проверку travis https://travis-ci.com/github/BolotNam/BolotNam_microservices/builds/213694687
 
 ## Ссылка на Dockerhub:
 ## PR checklist
