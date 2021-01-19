@@ -1,17 +1,15 @@
 ---
-apiVersion: v1
-kind: Service
+apiVersion: extensions/v1beta1
+kind: Ingress
 metadata:
   name: ui
-  labels:
-    app: reddit
-    component: ui
+  annotations:
+    kubernetes.io/ingress.allow-http: "false"
 spec:
-  type: NodePort
-  ports:
-  - port: 9292
-    protocol: TCP
-    targetPort: 9292
-  selector:
-    app: reddit
-    component: ui
+  tls:
+  - hosts:
+      - 178.154.231.222
+    secretName: ui-ingress
+  backend:
+    serviceName: ui
+    servicePort: 9292
