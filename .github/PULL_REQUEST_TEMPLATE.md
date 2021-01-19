@@ -1,4 +1,4 @@
-# Выполнено ДЗ kubernetes-2
+# Выполнено ДЗ kubernetes-3
 
  - [x] Основное ДЗ
  - [-] Задание со *
@@ -13,4 +13,4 @@
 ## Ссылка на Dockerhub:
 ## PR checklist
  - [kubernetes]
- - [kubernetes-2]
+ - [kubernetes-3]
