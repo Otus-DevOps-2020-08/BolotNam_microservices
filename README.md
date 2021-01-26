@@ -1,3 +1,13 @@
+# ДЗ kubernetes-3
+
+1. Тестим влияние kube-dns
+2. вспоминаем cluster ip и NodePort
+3. тестим Loadbalancer
+4. тестим Ingress
+5. тестим ingress+tls
+6. тестим network policy для разделения трафика
+7. тестим подключение баз stateful, persistent volume
+
 ДЗ kubernetes-2
 # ДЗ kubernetes-2
 
